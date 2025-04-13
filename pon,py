@@ -1,0 +1,11 @@
+class Solution:
+    def present_or_not(self, string, txt):
+        if txt in string:
+            print("yes")
+        else:
+            print("no")
+
+a = Solution()
+string = "how are you?"
+txt = "is"
+a.present_or_not(string, txt)  # Output: no
